@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c78e65a-1154-42fa-8070-2469c0d215cd" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2SVSaKegxFzzkkU42XazoBS5DQf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Win10/IdeaProjects/Dalinggong",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "spring.configuration.checksum": "a83a6077821e199e43076669847a663b",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hmdp.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DalinggongApplication">
+    <configuration name="GenshinImpactGachaExpectation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hmdp.controller.GenshinImpactGachaExpectation" />
+      <module name="hm-dianping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linggong.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeIntervalsDynamic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hmdp.controller.MergeIntervalsDynamic" />
+      <module name="hm-dianping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linggong.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ww" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hmdp.controller.ww" />
+      <module name="hm-dianping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linggong.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DalinggongApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="linggong" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.linggong.DalinggongApplication" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndTriggerFile" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="linggong" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gi.GiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.GiApplication" />
+      <item itemvalue="Spring Boot.DalinggongApplication" />
+      <item itemvalue="应用程序.GenshinImpactGachaExpectation" />
+      <item itemvalue="应用程序.MergeIntervalsDynamic" />
+      <item itemvalue="应用程序.ww" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.MergeIntervalsDynamic" />
+        <item itemvalue="应用程序.GenshinImpactGachaExpectation" />
+        <item itemvalue="应用程序.ww" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c78e65a-1154-42fa-8070-2469c0d215cd" name="Changes" comment="" />
+      <created>1689230320853</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689230320853</updated>
+      <workItem from="1689230321925" duration="773000" />
+      <workItem from="1689231158700" duration="4530000" />
+      <workItem from="1689440462207" duration="41000" />
+      <workItem from="1689441233032" duration="658000" />
+      <workItem from="1689560931229" duration="4462000" />
+      <workItem from="1689656342543" duration="666000" />
+      <workItem from="1690288579532" duration="1221000" />
+      <workItem from="1690542882145" duration="2671000" />
+      <workItem from="1690607549774" duration="3190000" />
+      <workItem from="1690802984791" duration="2011000" />
+      <workItem from="1690864839454" duration="3726000" />
+      <workItem from="1691744787860" duration="3087000" />
+      <workItem from="1691842994273" duration="1046000" />
+      <workItem from="1691907153702" duration="6140000" />
+      <workItem from="1691991783286" duration="3523000" />
+      <workItem from="1692075249848" duration="6226000" />
+      <workItem from="1692098561767" duration="2777000" />
+      <workItem from="1692187142128" duration="617000" />
+      <workItem from="1692424467915" duration="1814000" />
+      <workItem from="1692508064203" duration="88000" />
+      <workItem from="1692675093400" duration="9316000" />
+      <workItem from="1692699457923" duration="2851000" />
+      <workItem from="1692790996081" duration="1843000" />
+      <workItem from="1692792879416" duration="161000" />
+      <workItem from="1692793066150" duration="2048000" />
+      <workItem from="1692844253586" duration="16500000" />
+      <workItem from="1692935931299" duration="11011000" />
+      <workItem from="1693013629596" duration="57000" />
+      <workItem from="1693046993373" duration="8940000" />
+      <workItem from="1693114746681" duration="3884000" />
+      <workItem from="1693142199809" duration="327000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/linggong/service/impl/VoucherOrderServiceImpl.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
