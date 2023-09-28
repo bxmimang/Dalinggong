@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>订单信息输入</title>
+    <link rel="stylesheet" href="./css/element.css">
+    <link href="./css/index.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <div class="title-bar">
+            <h1>订单信息</h1>
+        </div>
+    <form id="orderForm">
+        <label for="customerName">工作时长：</label>
+        <input type="text" id="customerName" name="customerName" required><br><br>
+
+        <label for="product">工作类型</label>：</label>
+        <input type="text" id="product" name="product" required><br><br>
+
+        <label for="quantity">数量：</label>
+        <input type="number" id="quantity" name="quantity" required><br><br>
+
+        <button type="submit">提交订单</button>
+    </form>
+    <div class="dropdown">
+        <button class="dropbtn">下拉菜单</button>
+        <div class="dropdown-content">
+          <a href="#" onclick="gz">看店代管类工作</a>
+          <a href="#" onclick="gz">体力劳动工作</a>
+          <a href="#" onclick="gz">销售工作</a>
+          <a href="#" onclick="gz">计件工作</a>
+          <a href="#" onclick="gz">服务业工作</a>
+          <a href="#" onclick="gz">物品维修类工作</a>
+          <a href="#" onclick="gz">技术类工作</a>
+        </div>
+      </div>
+      
+    <form action="#">
+        <label for="lang">工作类型</label>
+        <select name="工作类型" id="lang">
+          <option value="看店代管类工作">看店代管类工作</option>
+          <option value="体力劳动工作">体力劳动工作</option>
+          <option value="销售工作">销售工作</option>
+          <option value="计件工作">计件工作</option>
+          <option value="服务业工作">服务业工作</option>
+          <option value="物品维修类工作">物品维修类工作 </option>
+          <option value="技术类工作">技术类工作</option>
+        </select>
+        <input type="submit" value="Submit" />
+  </form>
+    </div>
+    <script>
+        document.getElementById("orderForm").addEventListener("submit", function (event) {
+            event.preventDefault(); // 阻止默认的表单提交行为
+            const formData = new FormData(this);
+
+            fetch("/create-order", {
+                method: "POST",
+                body: formData,
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert("订单已生成并保存。");
+                    // 可以在此处重定向到下一步或执行其他操作
+                } else {
+                    alert("订单生成失败，请重试。");
+                }
+            })
+            .catch(error => {
+                console.error("发生错误：", error);
+                alert("出现了一个错误，请重试。");
+            });
+        });
+    </script>
+</body>
+</html>

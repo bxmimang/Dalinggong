@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timing Example</title>
+</head>
+<body>
+    <h1>Timing Example</h1>
+    <p>Press the button to start timing:</p>
+    <button id="startButton">Start Timing</button>
+    <button id="stopButton">Stop Timing</button>
+    <p id="result"></p>
+
+    <script>
+        var startTime = 0;
+
+        document.getElementById('startButton').addEventListener('click', function() {
+            startTime = new Date().getTime();
+        });
+
+        document.getElementById('stopButton').addEventListener('click', function() {
+            if (startTime === 0) {
+                alert("Please start timing first.");
+                return;
+            }
+
+            var endTime = new Date().getTime();
+            var elapsedTime = endTime - startTime;
+
+            // Send AJAX request to backend to save elapsed time
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', '/saveTime', true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var response = JSON.parse(xhr.responseText);
+                    document.getElementById('result').innerHTML = 'Elapsed Time: ' + response.elapsedTime + ' ms';
+                }
+            };
+            xhr.send(JSON.stringify({ elapsedTime: elapsedTime }));
+        });
+    </script>
+</body>
+</html>
